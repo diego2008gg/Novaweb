@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Web | Creación de Páginas Web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    .hero-content {
+      max-width: 900px;
+      margin: auto;
+    }
+    .logo {
+      width: 110px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      margin: 10px 0;
+      font-size: 3.2rem;
+      letter-spacing: 1px;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      margin: 10px 0;
+    }
+    .subtitle {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    header.hero {
+      background: linear-gradient(135deg, #4f46e5, #06b6d4);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #5b2cff;
+    }
+    .price {
+      font-size: 2rem;
+      color: #1cb5e0;
+      font-weight: bold;
+    }
+    .cta {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 60px 20px;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 15px 30px;
+      background: linear-gradient(135deg, #5b2cff, #1cb5e0);
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+    }
+    footer {
+      background-color: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <img src="img\logo-nova-web.png.png" alt="Logo Nova Web" class="logo" />
+      <h1>Nova Web</h1>
+      <p>Creación de páginas web básicas, modernas y elegantes</p>
+      <span class="subtitle">Para negocios y proyectos personales</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>¿Qué ofrecemos?</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Diseño web" />
+        <h3>Diseño Web Básico</h3>
+        <p>Páginas web sencillas, modernas y elegantes, ideales para mostrar tu negocio o proyecto personal.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Responsive" />
+        <h3>Diseño Responsivo</h3>
+        <p>Tu página se verá bien en computadoras, tablets y celulares.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="Código limpio" />
+        <h3>Código Limpio</h3>
+        <p>Desarrollo ordenado y optimizado para un mejor rendimiento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Especificaciones del servicio</h2>
+    <div class="cards">
+      <div class="card">
+        <ul>
+          <li>✔ Página web informativa</li>
+          <li>✔ Hasta 3–5 secciones</li>
+          <li>✔ Diseño sencillo y elegante</li>
+          <li>✔ Entrega del código</li>
+          <li>❌ Hosting no incluido</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Precio</h3>
+        <p class="price">Q400 – Q600</p>
+        <p>Precio accesible según el diseño y contenido solicitado.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>¿Listo para tener tu página web?</h2>
+    <p>Escríbenos y empieza tu presencia en internet hoy mismo.</p>
+    <a href="#">Contactar</a>
+  </section>
+
+  <footer>
+    © 2026 Nova Web · Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
